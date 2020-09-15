@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "strict": false,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": ["es7"],
+    "types": ["reflect-metadata", "bluebird-global"],
+    "paths": {
+      "common/*": ["../../src/bp/common/*"],
+      "botpress/sdk": ["../../src/bp/sdk/botpress.d.ts"]
+    }
+  },
+  "exclude": ["**/*.test.ts", "**/views/**"],
+  "include": ["../src/typings/*.d.ts", "**/*.ts"]
+}

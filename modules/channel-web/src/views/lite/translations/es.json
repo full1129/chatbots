@@ -1,0 +1,14 @@
+{
+  "composer.placeholder": "Responder a {name}",
+  "composer.send": "Enviar",
+  "header.conversations": "Conversaciones",
+  "conversationList.untitledConversation": "Conversación sin título",
+  "botInfo.backToConversation": "Volver a conversar",
+  "botInfo.startConversation": "Iniciar conversación",
+  "botInfo.privacyPolicy": "Ver política de privacidad",
+  "botInfo.termsAndConditions": "Ver términos de servicio",
+  "botInfo.preferredLanguage": "Preferred Language",
+  "store.resetSessionMessage": "Restablecer la conversación",
+  "messages.newMessage": "Nuevo mensaje",
+  "messages.newMessages": "Nuevos mensajes"
+}
